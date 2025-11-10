@@ -6,6 +6,7 @@ import java.util.List;
 @Service
 public class ViagemService {
 
+    @Autowired
     private ViagemRepository viagemRepository;
 
     public List<Viagem> getViagens() {
